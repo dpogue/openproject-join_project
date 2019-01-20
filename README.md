@@ -60,6 +60,40 @@ Installation and Setup
    If you're running this on a production instance, remember to set `RAILS_ENV=production`.
 
 
+### Global Configuration
+
+1. Go to the OpenProject Administration Plugins page, and click "Configure" beside OpenProject Join Project Plugin.
+
+2. Set the role that members should be granted when they join a project.
+
+  ![Join Project plugin configuration options](images/op-jp-settings.png)
+
+### Permissions
+
+1. Go to the OpenProject Administration Permissions page.
+
+2. Edit the *non-member* permissions, and grant them the ability to "Request to Join" a project.
+
+  ![Grant "Request to Join" permissions to non-members](images/op-jp-permission-nonmember.png)
+
+<!--
+
+3. Edit the Project Admin permissions, and grant them the ability to "Approve Join requests".
+
+-->
+
+### Project Settings
+
+1. Go to the Project Settings page for a project.
+
+2. On the Information tab, set whether users are allowed to request to join.
+
+  ![Dropdown option on the Project Settings tab](images/op-jp-projectsettings.png)
+
+  * **None:** Users must be added to the project by a project admin *(default behaviour)*
+  * **Self-Subscribing:** Users can click a button to join a project
+  * TODO: ~~**Request to Join:** Users can click a button to request to join a project, and then that request can be approved or denied~~
+
 Contributing
 ------------
 
