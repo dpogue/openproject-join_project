@@ -25,6 +25,7 @@ OpenProject Join Project Plugin
 
 An OpenProject plugin to allow non-members to join a project.
 
+!["Join this project" button in the sidebar](images/op-jp-joinbutton.png)
 
 Features
 --------
